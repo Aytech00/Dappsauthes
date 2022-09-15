@@ -26,7 +26,11 @@ header{
         margin: 20px;
 
         #wallet-icon{
-            font-size: 23px;
+            font-size: 20px;
+
+            @include responsive(phone){
+                margin-right: 4px;
+            }
         }
 
         #connect-btn{
@@ -106,7 +110,7 @@ header{
     @include responsive(phone){
 
         .inner-container{
-            padding: 13% 8% ;
+            padding: 10% 8% ;
 
         
         }
