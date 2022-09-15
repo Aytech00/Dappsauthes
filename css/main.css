@@ -16,14 +16,6 @@ header .connect-btn-container {
   align-items: center;
   margin: 20px;
 }
-header .connect-btn-container #wallet-icon {
-  font-size: 20px;
-}
-@media only screen and (max-width: 900px) {
-  header .connect-btn-container #wallet-icon {
-    margin-right: 4px;
-  }
-}
 header .connect-btn-container #connect-btn {
   padding: 8px 9px;
   border: 1px solid black;
@@ -32,6 +24,15 @@ header .connect-btn-container #connect-btn {
   color: whitesmoke;
   box-shadow: 1px 1px 2px #31a4b0;
   font-size: 18px;
+}
+header .connect-btn-container #connect-btn #wallet-icon {
+  font-size: 20px;
+  color: whitesmoke;
+}
+@media only screen and (max-width: 900px) {
+  header .connect-btn-container #connect-btn #wallet-icon {
+    margin-right: 4px;
+  }
 }
 
 .main-container {
@@ -72,6 +73,9 @@ header .connect-btn-container #connect-btn {
   cursor: pointer;
   background: linear-gradient(90deg, rgb(44, 148, 160) 10%, rgb(27, 49, 78) 53%);
 }
+.main-container .inner-container .button-wrap .eth-icon {
+  color: rgb(56, 15, 89);
+}
 @media only screen and (max-width: 900px) {
   .main-container .inner-container {
     padding: 10% 6%;
@@ -79,5 +83,6 @@ header .connect-btn-container #connect-btn {
   }
   .main-container .eth-icon {
     margin-right: 4px;
+    color: rgb(56, 15, 89);
   }
 }/*# sourceMappingURL=main.css.map */

@@ -18,6 +18,8 @@ $button-color: linear-gradient(
   );
 
 $text-color: white;
+$icon-color:rgb(56,15,89);
+
 
 
 // Start
@@ -47,13 +49,7 @@ header {
     align-items: center;
     margin: 20px;
 
-    #wallet-icon {
-      font-size: 20px;
-
-      @include responsive(phone) {
-        margin-right: 4px;
-      }
-    }
+  
 
     #connect-btn {
       padding: 8px 9px;
@@ -67,6 +63,15 @@ header {
       color: whitesmoke;
       box-shadow: 1px 1px 2px #31a4b0;
       font-size: 18px;
+
+      #wallet-icon {
+        font-size: 20px;
+        color: whitesmoke;
+  
+        @include responsive(phone) {
+          margin-right: 4px;
+        }
+      }
     }
   }
 }
@@ -123,6 +128,10 @@ header {
           rgb(27, 49, 78) 53%
         );
       }
+
+      .eth-icon{
+        color:$icon-color ;
+      }
     }
   }
 
@@ -136,6 +145,7 @@ header {
 
     .eth-icon{
       margin-right: 4px;
+      color:$icon-color ;
     }
   }
 }
