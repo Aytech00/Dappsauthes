@@ -3,6 +3,8 @@
 // Import google Font
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 
+// Color scheme
+
 
 $background-color: radial-gradient(
     circle,
@@ -67,6 +69,7 @@ header {
       #wallet-icon {
         font-size: 20px;
         color: whitesmoke;
+        margin-right:4px;
   
         @include responsive(phone) {
           margin-right: 4px;
@@ -131,11 +134,22 @@ header {
 
       .eth-icon{
         color:$icon-color ;
+        margin-right: 5px;
+
+        @include responsive(phone){
+          .eth-icon{
+            margin-right: 4px;
+            color:$icon-color ;
+          }
+
+        }
+
+      
       }
     }
   }
 
-  // Mobile
+  // Mobile responsiveness
 
   @include responsive(phone) {
     .inner-container {
@@ -143,9 +157,6 @@ header {
       margin-bottom: 4em;
     }
 
-    .eth-icon{
-      margin-right: 4px;
-      color:$icon-color ;
-    }
+  
   }
 }

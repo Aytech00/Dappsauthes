@@ -28,6 +28,7 @@ header .connect-btn-container #connect-btn {
 header .connect-btn-container #connect-btn #wallet-icon {
   font-size: 20px;
   color: whitesmoke;
+  margin-right: 4px;
 }
 @media only screen and (max-width: 900px) {
   header .connect-btn-container #connect-btn #wallet-icon {
@@ -75,14 +76,17 @@ header .connect-btn-container #connect-btn #wallet-icon {
 }
 .main-container .inner-container .button-wrap .eth-icon {
   color: rgb(56, 15, 89);
+  margin-right: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .main-container .inner-container .button-wrap .eth-icon .eth-icon {
+    margin-right: 4px;
+    color: rgb(56, 15, 89);
+  }
 }
 @media only screen and (max-width: 900px) {
   .main-container .inner-container {
     padding: 10% 6%;
     margin-bottom: 4em;
-  }
-  .main-container .eth-icon {
-    margin-right: 4px;
-    color: rgb(56, 15, 89);
   }
 }/*# sourceMappingURL=main.css.map */
