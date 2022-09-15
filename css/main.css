@@ -7,7 +7,7 @@
 }
 
 body {
-  background: radial-gradient(circle, rgb(49, 164, 176) 21%, rgb(24, 43, 68) 59%);
+  background: radial-gradient(circle, rgb(26, 42, 64) 20%, rgb(64, 169, 180) 55%);
 }
 
 header .connect-btn-container {
@@ -41,11 +41,10 @@ header .connect-btn-container #connect-btn {
   height: 80vh;
 }
 .main-container .inner-container {
-  border: 2px solid #203857;
   padding: 5% 10%;
   text-align: center;
   border-radius: 10px;
-  background-color: rgba(21, 21, 21, 0.6);
+  background-color: rgba(21, 21, 21, 0.4);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .main-container .inner-container .illustration-container {
@@ -76,5 +75,6 @@ header .connect-btn-container #connect-btn {
 @media only screen and (max-width: 900px) {
   .main-container .inner-container {
     padding: 10% 8%;
+    margin-bottom: 4em;
   }
 }/*# sourceMappingURL=main.css.map */

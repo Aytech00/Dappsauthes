@@ -32,9 +32,11 @@ $text-color: white;
 body {
   // background: radial-gradient(circle, rgba(56,16,86,1) 2%, rgba(11,9,40,1) 42%);
   // background: radial-gradient(circle, rgba(49,164,176,1) 10%, rgba(24,43,68,1) 53%);
-    background: radial-gradient(    circle,    rgba(49, 164, 176, 1) 21%,
-    rgba(24, 43, 68, 1) 59%
-   );
+  //   background: radial-gradient(    circle,    rgba(49, 164, 176, 1) 21%,
+  //   rgba(24, 43, 68, 1) 59%
+  //  );
+  background: radial-gradient(circle, rgba(26,42,64,1) 20%, rgba(64,169,180,1) 55%);
+
 
 
 
@@ -78,11 +80,11 @@ header {
   height: 80vh;
 
   .inner-container {
-    border: 2px solid #203857;
+    
     padding: 5% 10%;
     text-align: center;
     border-radius: 10px;
-    background-color: rgba(21, 21, 21, 0.6);
+    background-color: rgba(21, 21, 21, 0.4);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     .illustration-container {
@@ -131,6 +133,7 @@ header {
   @include responsive(phone) {
     .inner-container {
       padding: 10% 8%;
+      margin-bottom: 4em;
     }
   }
 }
