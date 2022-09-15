@@ -1,0 +1,25 @@
+{
+  "name": "dappsauthes",
+  "version": "1.0.0",
+  "description": "'migrate coin\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aytech00/Dappsauthes.git"
+  },
+  "author": "'Aytech'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aytech00/Dappsauthes/issues"
+  },
+  "homepage": "https://github.com/Aytech00/Dappsauthes#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.2.1",
+    "install": "^0.13.0",
+    "npm": "^8.19.2"
+  }
+}
