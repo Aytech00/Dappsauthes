@@ -7,7 +7,7 @@
 }
 
 body {
-  background: radial-gradient(circle, rgb(34, 54, 83) 7%, rgb(64, 169, 180) 55%);
+  background: radial-gradient(circle, rgb(34, 54, 83) 24%, rgb(48, 98, 120) 60%, rgb(48, 123, 131) 81%);
 }
 
 header .connect-btn-container {
