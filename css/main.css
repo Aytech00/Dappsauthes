@@ -77,4 +77,7 @@ header .connect-btn-container #connect-btn {
     padding: 10% 8%;
     margin-bottom: 4em;
   }
+  .main-container .eth-icon {
+    margin-right: 4px;
+  }
 }/*# sourceMappingURL=main.css.map */
