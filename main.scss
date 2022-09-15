@@ -81,7 +81,7 @@ header {
     
     padding: 4% 10%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: rgba(21, 21, 21, 0.4);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
@@ -130,7 +130,7 @@ header {
 
   @include responsive(phone) {
     .inner-container {
-      padding: 10% 8%;
+      padding: 10% 6%;
       margin-bottom: 4em;
     }
 
