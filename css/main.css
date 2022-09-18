@@ -76,18 +76,18 @@ header .connect-btn-container #connect-btn #wallet-icon {
   background: linear-gradient(90deg, rgb(44, 148, 160) 10%, rgb(27, 49, 78) 53%);
 }
 .main-container .inner-container .button-wrap .eth-icon {
-  color: rgb(56, 15, 89);
+  color: white;
   margin-right: 5px;
 }
 @media only screen and (max-width: 900px) {
   .main-container .inner-container .button-wrap .eth-icon .eth-icon {
     margin-right: 4px;
-    color: rgb(56, 15, 89);
+    color: white;
   }
 }
 @media only screen and (max-width: 900px) {
   .main-container .inner-container {
     padding: 10% 6%;
-    margin-bottom: 4em;
+    margin-bottom: 6em;
   }
 }/*# sourceMappingURL=main.css.map */

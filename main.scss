@@ -139,13 +139,13 @@ header {
       }
 
       .eth-icon{
-        color:$icon-color ;
+        color:$text-color ;
         margin-right: 5px;
 
         @include responsive(phone){
           .eth-icon{
             margin-right: 4px;
-            color:$icon-color ;
+            color:$text-color ;
           }
 
         }
@@ -160,7 +160,7 @@ header {
   @include responsive(phone) {
     .inner-container {
       padding: 10% 6%;
-      margin-bottom: 4em;
+      margin-bottom: 6em;
     }
 
   
