@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Playfair Display", serif;
 }
 
 body {
-  background: radial-gradient(circle, rgb(34, 54, 83) 24%, rgb(48, 98, 120) 60%, rgb(48, 123, 131) 81%);
+  background: radial-gradient(circle, rgb(228, 61, 145) 24%, rgb(71, 48, 127) 81%);
+  font-family: "Zilla Slab", serif;
 }
 
 header .connect-btn-container {
@@ -19,21 +19,21 @@ header .connect-btn-container {
 header .connect-btn-container #connect-btn {
   padding: 8px 9px;
   border: 1px solid black;
-  background: linear-gradient(90deg, rgb(49, 164, 176) 10%, rgb(24, 43, 68) 53%);
+  background: linear-gradient(to top, #e43d91, #47307f);
   border-radius: 5px;
-  color: whitesmoke;
-  box-shadow: 1px 1px 2px #31a4b0;
+  color: white;
+  box-shadow: 1px 1px 2px;
   font-size: 18px;
   cursor: pointer;
 }
 header .connect-btn-container #connect-btn #wallet-icon {
   font-size: 20px;
   color: whitesmoke;
-  margin-right: 4px;
+  margin-right: 6px;
 }
 @media only screen and (max-width: 900px) {
   header .connect-btn-container #connect-btn #wallet-icon {
-    margin-right: 4px;
+    margin-right: 5px;
   }
 }
 
@@ -44,14 +44,18 @@ header .connect-btn-container #connect-btn #wallet-icon {
   height: 80vh;
 }
 .main-container .inner-container {
-  padding: 4% 10%;
+  padding: 4% 13%;
   text-align: center;
   border-radius: 15px;
-  background-color: rgba(21, 21, 21, 0.4);
+  background-color: rgba(21, 21, 21, 0.5);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .main-container .inner-container .illustration-container {
   margin-bottom: 3em;
+}
+.main-container .inner-container .illustration-container .illustration {
+  width: 50%;
+  height: 30%;
 }
 .main-container .inner-container .text {
   color: whitesmoke;
@@ -64,7 +68,7 @@ header .connect-btn-container #connect-btn #wallet-icon {
   padding: 5px 14px;
   border-radius: 5px;
   font-size: 17px;
-  background: linear-gradient(90deg, rgb(49, 164, 176) 10%, rgb(24, 43, 68) 53%);
+  background: radial-gradient(circle, rgb(228, 61, 145) 24%, rgb(71, 48, 127) 81%);
   text-decoration: none;
   color: white;
   border: 1px solid whitesmoke;
@@ -87,7 +91,7 @@ header .connect-btn-container #connect-btn #wallet-icon {
 }
 @media only screen and (max-width: 900px) {
   .main-container .inner-container {
-    padding: 10% 6%;
+    padding: 10% 10%;
     margin-bottom: 6em;
   }
 }/*# sourceMappingURL=main.css.map */
