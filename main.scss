@@ -1,9 +1,10 @@
 @import "mediaquery";
 
 // Import google Font
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
-// Color scheme
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+
+// Color scheme
 
 $background-color: radial-gradient(
     circle,
@@ -29,6 +30,7 @@ $icon-color:rgb(56,15,89);
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Rubik', sans-serif;
   
 }
 
@@ -39,13 +41,6 @@ body {
   // background: radial-gradient(circle, rgba(34,54,83,1) 4%, rgba(43,184,140,1) 51%, rgba(64,169,180,1) 79%);
   // background: radial-gradient(circle, rgba(34,54,83,1) 24%, rgba(48,98,120,1) 60%, rgba(48,123,131,1) 81%);
   background: radial-gradient(circle, rgba(228,61,145,1) 24%, rgba(71,48,127,1) 81%);
-  font-family: 'Zilla Slab', serif;
-
-
-
-
-
-
 
 
 
@@ -62,18 +57,12 @@ header {
 
     #connect-btn {
       padding: 8px 9px;
-      border: 1px solid black;
-      // background: linear-gradient(
-      //   90deg,
-      //   rgba(49, 164, 176, 1) 10%,
-      //   rgba(24, 43, 68, 1) 53%
-      // );
-      // background: linear-gradient(90deg, rgba(228,61,145,1) 28%, rgba(71,48,127,1) 60%);
+      border: 1px solid #47307f, #e43d91 ;
       background: linear-gradient(to top, #e43d91, #47307f);
 
-      border-radius: 5px;
+      border-radius: 5px ;
       color: white;
-      box-shadow: 1px 1px 2px ;
+      border: 1px solid #e43d91;
       font-size: 18px;
       cursor: pointer;
 
@@ -103,6 +92,8 @@ header {
     border-radius: 15px;
     background-color: rgba(21, 21, 21, 0.5);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+ 
 
 
 
@@ -122,52 +113,100 @@ header {
       color: whitesmoke;
     }
 
-    .button-wrap {
-      display: inline-block;
-      margin-top: 2em;
+    // First main btn container
 
-      button {
-        padding: 5px 14px;
-        border-radius: 5px;
-        font-size: 17px;
-        // background: linear-gradient(
-        //   90deg,
-        //   rgba(49, 164, 176, 1) 10%,
-        //   rgba(24, 43, 68, 1) 53%
-        // );
-        background: radial-gradient(circle, rgba(228,61,145,1) 24%, rgba(71,48,127,1) 81%);
+     
+    .main-button-wrap-1{
 
-        text-decoration: none;
-        color: white;
-        border: 1px solid whitesmoke;
-        margin: 3px;
-      }
+      display: flex;
+      
 
-      button:hover {
-        transition: all 255ms ease-in-out;
-        cursor: pointer;
-        background: linear-gradient(
-          90deg,
-          rgb(44, 148, 160) 10%,
-          rgb(27, 49, 78) 53%
-        );
-      }
-
-      .eth-icon{
-        color:$text-color ;
-        margin-right: 5px;
-
-        @include responsive(phone){
-          .eth-icon{
-            margin-right: 4px;
-            color:$text-color ;
-          }
+      .inner-button-wrap-1 {
+        margin: 0% 1%;
+        
+  
+        button {
+          padding: 5px 14px;
+          border-radius: 5px;
+          font-size: 17px;
+          background-color: rgba(21, 21, 21, 0.5);
+          text-decoration: none;
+          color: white;
+          border: 1px solid #e43d91;
+          margin: 3px;
+        }
+  
+        button:hover {
+          transition: all 255ms ease-in-out;
+          cursor: pointer;
+          background: radial-gradient(circle, rgba(228,61,145,1) 24%, rgba(71,48,127,1) 81%);
 
         }
 
-      
+        // Button icon
+  
+        // .eth-icon{
+        //   color:$text-color ;
+        //   margin-right: 5px;
+  
+        //   @include responsive(phone){
+        //     .eth-icon{
+        //       margin-right: 4px;
+        //       color:$text-color ;
+        //     }
+  
+        //   }
+  
+        
+        // }
+  
+  
+        // 
+  
+       
+  
       }
+
     }
+
+
+    
+
+    // Second main button wrap
+
+    .main-button-wrap-2{
+      display: flex;
+      justify-content: center;
+    
+
+      .inner-button-wrap-2{
+
+        margin: 0% 2%;
+
+        button {
+          padding: 5px 14px;
+          border-radius: 5px;
+          font-size: 17px;
+          // background: radial-gradient(circle, rgba(228,61,145,1) 24%, rgba(71,48,127,1) 81%);
+          background-color: rgba(21, 21, 21, 0.5);
+          text-decoration: none;
+          color: white;
+          border: 1px solid #e43d91 ;
+          margin: 3px;
+
+
+        }
+        button:hover {
+          transition: all 255ms ease-in-out;
+          cursor: pointer;
+          background: radial-gradient(circle, rgba(228,61,145,1) 24%, rgba(71,48,127,1) 81%);
+
+        }
+
+      }
+
+    }
+
   }
 
   // Mobile responsiveness
