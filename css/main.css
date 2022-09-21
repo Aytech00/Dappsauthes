@@ -61,6 +61,7 @@ header .connect-btn-container #connect-btn #wallet-icon {
   color: whitesmoke;
 }
 .main-container .inner-container .main-button-wrap-1 {
+  margin-top: 4%;
   display: flex;
 }
 .main-container .inner-container .main-button-wrap-1 .inner-button-wrap-1 {
